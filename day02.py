@@ -1,4 +1,4 @@
-with open("puzzle2.txt") as f:
+with open("puzzle02.txt") as f:
     presents, ribbon = [], []
     for line in f:
         line = line.strip()

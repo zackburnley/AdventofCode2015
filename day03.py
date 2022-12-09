@@ -1,4 +1,4 @@
-with open("puzzle3.txt") as f:
+with open("puzzle03.txt") as f:
     visited = {(0, 0)}
     x, y, = 0, 0
     for line in f:
@@ -17,7 +17,7 @@ with open("puzzle3.txt") as f:
             visited.add(vtuple)
     print("Part 1:", len(visited))
 ##############################################################
-with open("puzzle3.txt") as f:
+with open("puzzle03.txt") as f:
     svisited, rsvisited = {(0, 0)}, {(0, 0)}
     sx, sy, rsx, rsy = 0, 0, 0, 0
     for line in f:
